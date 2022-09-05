@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2 ,
+	"name": "float Searcher",
+	"description": "поиск нужных флоатов",
+	"version": "0.3",
+	"author": "deathly boy",
+	"content_scripts": [
+		{
+			"matches":[
+				"<all_urls>"
+			],
+			"js": ["script.js"]
+		}
+	]
+}
